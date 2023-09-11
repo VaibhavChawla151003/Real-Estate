@@ -9,7 +9,6 @@ const Hero = () => {
         {/* left side */}
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle" />
             <motion.h1
             initial={{ y: "2rem", opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -18,9 +17,9 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Let's find a <br />
+              home that's perfect
+              <br /> for you
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
@@ -65,7 +64,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <img src="./r1.png" alt="houses" />
           </motion.div>
         </div>
       </div>
